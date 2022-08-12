@@ -7,7 +7,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./estrela-parabens.page.scss'],
 })
 export class EstrelaParabensPage implements OnInit {
-  cards = ['/card1'];
+  cards = ['/card1', '/card2', '/card3', '/card4'
+  , '/card5', '/card6', '/card7', '/card8', '/card9'
+  , '/card10'];
 
   constructor(private route:Router) { }
 
@@ -15,6 +17,6 @@ export class EstrelaParabensPage implements OnInit {
   }
 
   requestPage(){
-    this.route.navigate(['/card1']);
+    this.route.navigate([this.cards[Math.floor(Math.random()*this.cards.length)]]);
   }
 }
