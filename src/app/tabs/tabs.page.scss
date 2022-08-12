@@ -1,1 +1,123 @@
+/*
+	@name tela_tcc
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
 
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 428px; width: 428px; height: 926px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__tela_tcc {
+	top: 0px;
+	left: 0px;
+	width: 428px;
+	height: 926px;
+	background:rgba(245.44,245.44,245.44,1);
+}
+
+
+#rectangle_31 {
+	//top: 806px;
+	left: 0px;
+	width: 100%;
+	height: 100px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px 0 0 0;
+	background-color:rgba(37,98,150,1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: unset;
+    position: absolute;
+    bottom: 0;
+    ion-tab-button {
+        --background: transparent;
+      }
+}
+
+#fluent_link_16_filled_cls_a {
+	top: 835px;
+	left: 72px;
+	width: 46.58px;
+	height: 45.58px;
+	position: absolute;
+}
+
+#vector {
+	top: 12px;
+	left: 6px;
+	width: 34.58px;
+	height: 21.58px;
+}
+
+#bi_file_pdf {
+	top: 841px;
+	left: 314px;
+	width: 32.75px;
+	height: 33px;
+}
+#group {
+	top: 0px;
+	left: 4px;
+	width: 24.75px;
+	height: 33px;
+}
+
+#vector_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 24.75px;
+	height: 33px;
+}
+
+
+#vector_ek2 {
+	top: 7px;
+	left: 4px;
+	width: 16.35px;
+	height: 17.68px;
+}
+
+#app_id2_2_cls_a {
+	top: 761px;
+	left: 169px;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+}
+
+#logo_central_1 {
+	width: 90px;
+	height: 90px;
+}
+
+ #logo{
+    margin-top: 450px;
+    margin-left: 85px;
+    width: 90px;
+	height: 90px;
+    position: absolute;
+    z-index: 99;
+}
+
+
+ion-tab-button{
+    align-items: center;
+    #vector{
+       margin-left: 10px;
+       margin-top: 20px;
+    }
+    #vector_ek1{
+        margin-left: 60px;
+        margin-top: 25px;
+     }
+}
+
+/* Add your custom CSS here */

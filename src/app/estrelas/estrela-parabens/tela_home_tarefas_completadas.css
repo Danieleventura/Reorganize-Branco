@@ -1,0 +1,126 @@
+/*
+	@name tela_home_tarefas_completadas
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 428px; width: 428px; height: 926px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__tela_home_tarefas_completadas {
+	top: 0px;
+	left: 0px;
+	width: 428px;
+	height: 926px;
+	background:rgba(245.44,245.44,245.44,1);
+}
+
+
+#rectangle_30 {
+	top: 806px;
+	left: 0px;
+	width: 428px;
+	height: 120px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	background:rgba(37,98,150,1);
+}
+
+#fluent_link_16_filled_cls_a {
+	top: 835px;
+	left: 72px;
+	width: 46.58px;
+	height: 45.58px;
+	position: absolute;
+}
+
+#vector {
+	top: 12px;
+	left: 6px;
+	width: 34.58px;
+	height: 21.58px;
+}
+
+#bi_file_pdf_cls_a {
+	top: 841px;
+	left: 314px;
+	width: 32.75px;
+	height: 33px;
+	position: absolute;
+}
+#group {
+	top: px;
+	left: 4px;
+	width: 24.75px;
+	height: 33px;
+}
+
+#vector_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 24.75px;
+	height: 33px;
+}
+
+
+#vector_ek2 {
+	top: 7px;
+	left: 4px;
+	width: 16.35px;
+	height: 17.68px;
+}
+
+#app_id2_2 {
+	top: 775px;
+	left: 169px;
+	width: 90px;
+	height: 90px;
+}
+
+#logo_central_1 {
+	top: 0px;
+	left: 0px;
+	width: 90px;
+	height: 90px;
+}
+
+
+#parab_ns_por_completar_suas_tarefas_do_dia__voc__ganhou_uma_estrela_ {
+	top: 74px;
+	left: 43px;
+	width: 353px;
+	height: 131px;
+	overflow: hidden;
+	font-family: Baloo Bhai;
+	font-size: 42px;
+	text-align: center;
+	color:#256296;
+}
+
+
+#_1_estrela_1_1 {
+	top: 205px;
+	left: 166px;
+	width: 96px;
+	height: 92px;
+}
+
+
+#app_smile_2 {
+	top: 246px;
+	left: 186px;
+	width: 55px;
+	height: 30px;
+}
+
+
+
+/* Add your custom CSS here */

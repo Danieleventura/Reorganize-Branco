@@ -1,0 +1,59 @@
+/*
+	@name tela_home_tarefas_completadas
+*/
+/* Only edit this if you know what you are doing! */
+* { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img {  margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+
+#content-container { 
+	//display: block; 
+	//position: relative; 
+	width: 100%;  
+	height: 100%; 
+	//overflow: hidden; 
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	background:rgba(245.44,245.44,245.44,1);
+  }
+
+#parab_ns_por_completar_suas_tarefas_do_dia__voc__ganhou_uma_estrela_ {
+	padding-top: 100px;
+	//left: 43px;
+	//overflow: hidden;
+	//font-family: Baloo Bhai;
+	font-size: 26px;
+	text-align: center;
+	color:#256296;
+}
+
+.star{
+	display: flex;
+	justify-content: center;
+	
+}
+
+#_1_estrela_1_1 {
+	//top: 205px;
+	//left: 166px;
+	width: 96px;
+	height: 92px;
+}
+
+
+#app_smile_2 {
+	top: 260px;
+	//left: 186px;
+	position: absolute;
+	width: 55px;
+	height: 30px;
+}
+
+
+
+/* Add your custom CSS here */

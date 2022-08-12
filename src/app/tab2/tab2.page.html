@@ -1,17 +1,26 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div id="content-container" >
+    
+    <div id="insira_tarefas_para_o_seu_dia_e_marque_as_concluidas_para_desbloquear_cart_es" >
+      <p>Insira tarefas para o seu dia<br/>e marque as concluidas<br/>para desbloquear cartões</p>
+      <ion-progress-bar value="{{valueProgressBar}}"></ion-progress-bar>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+    </div>
+
+    
+    <div class="container-tarefas">
+      <ion-list lines="none">
+        <div class="tarefa"  *ngFor="let task of tarefas;let i = index">
+          <div class="retangulo_azul">
+            <ion-input type="text" [(ngModel)]="modelTarefa[i]" placeholder="Insira uma tarefa para hoje" (ionBlur)="addTarefa(task, i)"></ion-input>
+            <div class="quadrado_escuro"  >
+              <ion-checkbox (ionChange)="changeStatus(task)" checked="{{task.done}}" ></ion-checkbox>
+            </div>
+          </div>
+        </div>
+      </ion-list>
+    </div>
+
+  </div>
+  <script>var specialChars = document.querySelectorAll("span.char"); for(var c=0; c<specialChars.length; c++){ specialChars[c].innerHTML = decodeURIComponent(specialChars[c].innerHTML); }</script>
 </ion-content>
