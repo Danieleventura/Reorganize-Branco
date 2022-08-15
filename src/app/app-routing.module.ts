@@ -45,6 +45,26 @@ const routes: Routes = [
   {
     path: 'card10',
     loadChildren: () => import('./cards/card10/card10.module').then( m => m.Card10PageModule)
+  },
+  {
+    path: 'card11',
+    loadChildren: () => import('./cards/card11/card11.module').then( m => m.Card11PageModule)
+  },
+  {
+    path: 'card12',
+    loadChildren: () => import('./cards/card12/card12.module').then( m => m.Card12PageModule)
+  },
+  {
+    path: 'card13',
+    loadChildren: () => import('./cards/card13/card13.module').then( m => m.Card13PageModule)
+  },
+  {
+    path: 'card14',
+    loadChildren: () => import('./cards/card14/card14.module').then( m => m.Card14PageModule)
+  },
+  {
+    path: 'card15',
+    loadChildren: () => import('./cards/card15/card15.module').then( m => m.Card15PageModule)
   }
 ];
 @NgModule({
