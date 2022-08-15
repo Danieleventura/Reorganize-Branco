@@ -1,0 +1,46 @@
+/*
+	@name tela_inicial_2
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 428px; width: 428px; height: 926px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#__bg__tela_inicial_2 {
+	top: 0px;
+	left: 0px;
+	width: 428px;
+	height: 926px;
+	background:rgba(37,98,150,1);
+}
+
+
+#o_tempo_que_gastamos_com_o_consumo_de_m_dias_nos_prende_a_aten__o_e_nos_tiram_a_produtividade_do_dia_a_dia_ {
+	top: 193px;
+	left: 38px;
+	width: 362px;
+	height: 258.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 29px;
+	text-align: right;
+	color:#2EA8FF;
+}
+
+
+#pexels_photo_by_ola_dapo {
+	top: 463px;
+	left: 43px;
+	width: 479px;
+	height: 338px;
+}
+
+
+
+/* Add your custom CSS here */

@@ -1,0 +1,79 @@
+/*
+	@name tela_inicial_4
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 428px; width: 428px; height: 926px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#__bg__tela_inicial_4 {
+	top: 0px;
+	left: 0px;
+	width: 428px;
+	height: 926px;
+	background:rgba(37,98,150,1);
+}
+
+#rectangle_42_cls_a {
+	top: 792px;
+	left: 26px;
+	width: 108px;
+	height: 108px;
+	position: absolute;
+}
+
+#rectangle_42_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 108px;
+	height: 108px;
+	background:rgba(37,98,150,1);
+}
+
+#eva_arrow_ios_back_fill {
+	top: 42px;
+	left: 42px;
+	width: 24px;
+	height: 24px;
+}
+
+#vector {
+	top: 0px;
+	left: 5px;
+	width: 12px;
+	height: 24px;
+}
+
+
+#vamos_come_ar_ {
+	top: 241px;
+	left: 17px;
+	width: 413px;
+	height: 294px;
+	overflow: hidden;
+	font-family: Baloo Bhai;
+	font-size: 80px;
+	text-align: center;
+	line-height: 57.520003318787px;
+	padding-top: 22.479996681213px;
+	margin-top: -22.479996681213px;
+	color:#FFFFFF;
+}
+
+
+#app_smile_1 {
+	top: 435px;
+	left: 83px;
+	width: 262px;
+	height: 142px;
+}
+
+
+
+/* Add your custom CSS here */

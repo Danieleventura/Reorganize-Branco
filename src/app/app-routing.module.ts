@@ -65,6 +65,22 @@ const routes: Routes = [
   {
     path: 'card15',
     loadChildren: () => import('./cards/card15/card15.module').then( m => m.Card15PageModule)
+  },
+  {
+    path: 'tela1',
+    loadChildren: () => import('./start/tela1/tela1.module').then( m => m.Tela1PageModule)
+  },
+  {
+    path: 'tela2',
+    loadChildren: () => import('./start/tela2/tela2.module').then( m => m.Tela2PageModule)
+  },
+  {
+    path: 'tela3',
+    loadChildren: () => import('./start/tela3/tela3.module').then( m => m.Tela3PageModule)
+  },
+  {
+    path: 'tela4',
+    loadChildren: () => import('./start/tela4/tela4.module').then( m => m.Tela4PageModule)
   }
 ];
 @NgModule({

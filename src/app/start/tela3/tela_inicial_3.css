@@ -1,0 +1,106 @@
+/*
+	@name tela_inicial_3
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 428px; width: 428px; height: 926px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#__bg__tela_inicial_3 {
+	top: 0px;
+	left: 0px;
+	width: 428px;
+	height: 926px;
+	background:rgba(37,98,150,1);
+}
+
+#rectangle_42_cls_a {
+	top: 792px;
+	left: 26px;
+	width: 108px;
+	height: 108px;
+	position: absolute;
+}
+
+#rectangle_42_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 108px;
+	height: 108px;
+	background:rgba(37,98,150,1);
+}
+
+#eva_arrow_ios_back_fill {
+	top: 42px;
+	left: 42px;
+	width: 24px;
+	height: 24px;
+}
+
+#vector {
+	top: 0px;
+	left: 5px;
+	width: 12px;
+	height: 24px;
+}
+
+
+#este_app_tem_como_fun__o_auxili__lo_a_reorganizar_suas_metas_di_rias_te_dando_dicas_de_autocuidado_para_que_voc__se_sinta_motivado_ {
+	top: 506px;
+	left: 43px;
+	width: 376.5px;
+	height: 258.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 29px;
+	text-align: left;
+	color:#2EA8FF;
+}
+
+#ilustra__o {
+	top: 125px;
+	left: 43px;
+	width: 333px;
+	height: 333px;
+}
+
+#rectangle_43 {
+	opacity:0;
+	top: 0px;
+	left: -107px;
+	width: 450px;
+	height: 343px;
+	-ms-border-radius: 51px;
+	-o-border-radius: 51px;
+	-moz-border-radius: 51px;
+	-webkit-border-radius: 51px;
+	border-radius: 51px;
+	border: 5px solid #ffffff;
+	background:rgba(217,217,217,0);
+}
+
+
+#__img___ilustra__o {
+	top: 50px;
+	left: 42px;
+	width: 248.68px;
+	height: 232.98px;
+}
+
+
+#app_smile_1 {
+	top: -118px;
+	left: -20px;
+	width: 262px;
+	height: 142px;
+}
+
+
+
+/* Add your custom CSS here */

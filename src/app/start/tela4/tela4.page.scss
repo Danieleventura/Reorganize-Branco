@@ -1,0 +1,91 @@
+/*
+	@name tela_inicial_4
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { margin: 0px; border: none; padding: 0px; }
+
+
+
+#content-container { 
+    width: 100%; 
+    height: 100%;
+    overflow: hidden; 
+    background:rgba(37,98,150,1);
+    display: flex;
+    justify-content: center; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+#rectangle_42_cls_a {
+	top: 792px;
+	left: 26px;
+	width: 108px;
+	height: 108px;
+}
+
+#rectangle_42_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 108px;
+	height: 108px;
+	background:rgba(37,98,150,1);
+}
+
+#eva_arrow_ios_back_fill {
+	top: 42px;
+	left: 42px;
+	width: 24px;
+	height: 24px;
+}
+
+#vector {
+	top: 0px;
+	left: 5px;
+	width: 12px;
+	height: 24px;
+}
+
+
+#vamos_come_ar_ {
+	overflow: hidden;
+	font-family: Baloo Bhai;
+	font-size: 50px;
+	text-align: center;
+	line-height: 57.520003318787px;
+	padding-top: 22.479996681213px;
+	margin-top: -22.479996681213px;
+	color:#FFFFFF;
+}
+
+.logo{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#app_smile_1 {
+	width: 240px;
+	height: 140px;
+}
+
+ion-fab-button{
+    --background:rgba(255,255,250,1);
+    --border-radius: 50px;
+    width: 70px;
+	height: 70px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    z-index: 99;
+    ion-icon{
+        color: #2EA8FF;
+    }
+
+}
+
+
+/* Add your custom CSS here */

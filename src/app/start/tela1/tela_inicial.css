@@ -1,0 +1,66 @@
+/*
+	@name tela_inicial
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 428px; width: 428px; height: 926px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__tela_inicial {
+	top: 0px;
+	left: 0px;
+	width: 428px;
+	height: 926px;
+	background:rgba(245.44,245.44,245.44,1);
+}
+
+
+#ol__ {
+	top: 152px;
+	left: 44px;
+	width: 460px;
+	height: 242px;
+	overflow: hidden;
+	font-family: Baloo Bhai;
+	font-size: 128px;
+	text-align: left;
+	color:#0F70B7;
+}
+
+
+#clique_no_bot_o_e_comece_a_reorganizar_o_seu_dia {
+	top: 304px;
+	left: 39px;
+	width: 362px;
+	height: 141.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 29px;
+	text-align: right;
+	color:#2EA8FF;
+}
+
+#app_id2_1_cls_a {
+	top: 463px;
+	left: 57px;
+	width: 314px;
+	height: 314px;
+	position: absolute;
+}
+
+#app_id2_1_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 314px;
+	height: 314px;
+}
+
+
+
+/* Add your custom CSS here */

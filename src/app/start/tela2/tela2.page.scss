@@ -1,0 +1,49 @@
+/*
+	@name tela_inicial_2
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img {  margin: 0px; border: none; padding: 0px; }
+
+
+#content-container { 
+    width: 100%; 
+    height: 100%;
+    overflow: hidden; 
+    background:rgba(37,98,150,1);
+    display: flex;
+    justify-content: center; 
+    flex-direction: column; 
+    align-items: center;
+    }
+
+
+#o_tempo_que_gastamos_com_o_consumo_de_m_dias_nos_prende_a_aten__o_e_nos_tiram_a_produtividade_do_dia_a_dia_ {
+	width: 100%;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 26px;
+	text-align: right;
+	color:#2EA8FF;
+	word-break: break-word;
+	padding-bottom: 40px;
+	padding-right: 30px;
+}
+
+.photo{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+#pexels_photo_by_ola_dapo {
+	width: 300px;
+	height: 250px;
+}
+
+
+
+/* Add your custom CSS here */
