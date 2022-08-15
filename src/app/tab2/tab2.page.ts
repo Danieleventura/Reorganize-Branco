@@ -38,6 +38,7 @@ export class Tab2Page {
   constructor(private toastCtrl: ToastController, private route:Router) {
     //this.tarefas.length = 4;
     let taskJSON = localStorage.getItem('taskDB');
+    localStorage.setItem('firstOpen', JSON.stringify(false));
     if(taskJSON != null){
       this.tarefas = JSON.parse(taskJSON);
       this.updateProgressBar();let index = 0;
