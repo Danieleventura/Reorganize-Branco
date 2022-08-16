@@ -1,0 +1,128 @@
+/*
+	@name tela_links
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 428px; width: 428px; height: 926px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__tela_links {
+	top: 0px;
+	left: 0px;
+	width: 428px;
+	height: 926px;
+	background:rgba(37,98,150,1);
+}
+
+
+#pagina_de_links {
+	top: 215px;
+	left: 23px;
+	width: 382px;
+	height: 1088px;
+}
+
+
+#barra_de_menu {
+	top: 806px;
+	left: 0px;
+	width: 428px;
+	height: 120px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	background:rgba(255,255,255,1);
+}
+
+#fluent_link_16_filled_cls_a {
+	top: 835px;
+	left: 72px;
+	width: 46.58px;
+	height: 45.58px;
+	position: absolute;
+}
+
+#vector {
+	top: 12px;
+	left: 6px;
+	width: 34.58px;
+	height: 21.58px;
+}
+
+#bi_file_pdf_cls_a {
+	top: 841px;
+	left: 314px;
+	width: 32.75px;
+	height: 33px;
+	position: absolute;
+}
+#group {
+	top: px;
+	left: 4px;
+	width: 24.75px;
+	height: 33px;
+}
+
+#vector_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 24.75px;
+	height: 33px;
+}
+
+
+#vector_ek2 {
+	top: 7px;
+	left: 4px;
+	width: 16.35px;
+	height: 17.68px;
+}
+
+
+#m_scara_head {
+	top: 0px;
+	left: 0px;
+	width: 428px;
+	height: 255px;
+	background:rgba(37,98,150,1);
+}
+
+
+#dicas_importantes {
+	top: 71px;
+	left: 29px;
+	width: 386px;
+	height: 219px;
+	overflow: hidden;
+	font-family: Baloo Bhai;
+	font-size: 96px;
+	text-align: right;
+	color:#FFFFFF;
+}
+
+#app_id2_2_cls_a {
+	top: 761px;
+	left: 169px;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+}
+
+#logo_central_1 {
+	top: 0px;
+	left: 0px;
+	width: 90px;
+	height: 90px;
+}
+
+
+
+/* Add your custom CSS here */

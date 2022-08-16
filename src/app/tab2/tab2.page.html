@@ -11,7 +11,7 @@
     <div class="container-tarefas">
       <ion-list lines="none">
         <div class="tarefa"  *ngFor="let task of tarefas;let i = index">
-          <div class="retangulo_azul">
+          <div class="retangulo_azul" style="background: {{task.color}};">
             <ion-input type="text" [(ngModel)]="modelTarefa[i]" placeholder="Insira uma tarefa para hoje" (ionBlur)="addTarefa(task, i)"></ion-input>
             <div class="quadrado_escuro"  >
               <ion-checkbox (ionChange)="changeStatus(task)" checked="{{task.done}}" ></ion-checkbox>

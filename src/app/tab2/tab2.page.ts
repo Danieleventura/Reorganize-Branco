@@ -13,24 +13,28 @@ export class Tab2Page {
     name: '',
       done: false,
       date: 0,
-      month: 0
+      month: 0,
+      color: '#2EA8FF'
     }, 
     {
       name: '',
       done: false,
       date: 0,
-      month: 0
+      month: 0,
+      color: '#2EA8FF'
     },
     {
       name: '',
       done: false,
       date: 0,
-      month: 0
+      month: 0,
+      color: '#2EA8FF'
     },{
       name: '',
       done: false,
       date: 0,
-      month: 0
+      month: 0,
+      color: '#2EA8FF'
     }];
   modelTarefa=['','','', ''];
   date = new Date().getUTCDate();
@@ -41,7 +45,7 @@ export class Tab2Page {
     localStorage.setItem('firstOpen', JSON.stringify(false));
     if(taskJSON != null){
       this.tarefas = JSON.parse(taskJSON);
-      this.updateProgressBar();let index = 0;
+      this.updateProgressBar();
       for(let i =0; i<this.modelTarefa.length; i++){
         this.modelTarefa[i] =this.tarefas[i].name;
       }
@@ -76,7 +80,8 @@ export class Tab2Page {
       name: this.modelTarefa[i],
       done: false,
       date: date,
-      month: month
+      month: month,
+      color: '#2EA8FF'
     };
 
     const size2 = this.tarefas.length;
@@ -97,6 +102,12 @@ export class Tab2Page {
     if(task.name != ''){
       if (index > -1) {
         this.tarefas[index].done = !task.done;
+        if(this.tarefas[index].done){
+          this.tarefas[index].color = 'rgba(37,98,150,1)';
+        }else{
+          this.tarefas[index].color = '#2EA8FF';
+        }
+        
         console.log("alterou");
         this.updateLocalStorage();
         if(task.done){

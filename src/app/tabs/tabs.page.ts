@@ -7,6 +7,23 @@ import { Component } from '@angular/core';
 })
 export class TabsPage {
 
-  constructor() {}
+  constructor() {
+    
+  }
+  
+  ngOnInit() {
+  }
 
+  requestMenu(tipo){
+
+    if(tipo=='branco'){
+      document.getElementById('azul').style.backgroundColor= 'rgba(37,98,150,1)';
+      document.getElementById('rectangle_31').style.backgroundColor= 'white';
+      document.getElementById('vector').setAttribute('src','assets/skins/vector-azul.png' );
+    }else{
+      document.getElementById('azul').style.backgroundColor= 'rgba(245.44,245.44,245.44,1)';
+      document.getElementById('rectangle_31').style.backgroundColor= 'rgba(37,98,150,1)';
+      document.getElementById('vector').setAttribute('src','assets/skins/vector.png' );
+    }
+  }
 }

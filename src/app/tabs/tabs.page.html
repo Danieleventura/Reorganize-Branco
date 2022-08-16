@@ -1,14 +1,14 @@
 
-<ion-tabs >
-  <ion-tab-bar slot="bottom" id="rectangle_31" >
-    <ion-tab-button tab="tab1">
-				<img src="assets/skins/vector.png" id="vector" />
+<ion-tabs id="azul">
+  <ion-tab-bar slot="bottom" id="rectangle_31">
+    <ion-tab-button tab="links" (click)="requestMenu('branco')">
+				<img src="assets/skins/vector.png" id="vector" class="link"/>
     </ion-tab-button>
-    <ion-tab-button tab="tab2">
+    <ion-tab-button tab="tab2" (click)="requestMenu('azul')" id="logo-meio">
       <img src="assets/skins/logo_central_1.png" id="logo_central_1" />
     </ion-tab-button>
-    <ion-tab-button tab="tab3">
-      <img src="assets/skins/vector_ek1.png" id="vector_ek1" />
+    <ion-tab-button tab="pdf" (click)="requestMenu('azul')">
+      <img src="assets/skins/pdf.png" id="vector_ek1" />
     </ion-tab-button>
     </ion-tab-bar>
 </ion-tabs>
