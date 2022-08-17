@@ -2,7 +2,8 @@
 	@name tela_links
 */
 /* Only edit this if you know what you are doing! */
-* { margin: 0px; padding: 0px; font-family:"Arial"; }
+* { margin: 0px; padding: 0px; font-family:'Roboto',  sans-serif;
+}
 
 /* Only edit this if you know what you are doing! */
 img { margin: 0px; border: none; padding: 0px; }
@@ -125,10 +126,14 @@ ion-list{
 
 
 #dicas_importantes {
-	font-family: Baloo Bhai;
+	
+
 	font-size: 50px;
 	text-align: right;
 	color:#FFFFFF;
+	span{
+		font-family: 'Baloo Bhai 2' !important;
+	}
 }
 
 

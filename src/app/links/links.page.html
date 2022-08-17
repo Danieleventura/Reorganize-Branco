@@ -2,7 +2,7 @@
 <ion-content>
   <div id="content-container" >
     <div id="dicas_importantes" >
-      <span style="font-style:normal; font-weight:normal; text-decoration:NONE; ">Dicas<br/></span><span style="font-size:21; font-style:normal; font-weight:normal; text-decoration:NONE; ">importante</span>
+      <span style="font-style:normal; font-weight:normal; text-decoration:NONE; ">Dicas<br/></span><span style="font-size:21; font-style:normal; font-weight:normal; text-decoration:NONE; ">importantes</span>
     </div>
     <div class="container-cards">
       <ion-list lines="none">
@@ -16,7 +16,7 @@
                 Steve Cutts aponta, através de uma animação cartunesca, a mecanização da mente
                 humana e como isso tem resultado em uma sociedade "sem alma".
               </div>
-              <ion-button> Saiba mais</ion-button>
+              <ion-button (click)="openUrlExterna(1)"> Saiba mais</ion-button>
             </div>
           </div>  
           <div class="box-card">
@@ -27,7 +27,7 @@
                 resultam no uso incontrolável do celular no nosso dia a dia. <br>
                 Compreender essa relação, pode ser essencial na busca por uma vida mais saudável.
               </div>
-              <ion-button> Saiba mais</ion-button>
+              <ion-button (click)="openUrlExterna(2)"> Saiba mais</ion-button>
             </div>
           </div>  
           <div class="box-card">
@@ -39,7 +39,7 @@
                 pessoa e nem imaginamos que pode acontecer com nós mesmos. <br>
                 Um longa metragem dirigido por Jeff Orlowski.
               </div>
-              <ion-button> Saiba mais</ion-button>
+              <ion-button (click)="openUrlExterna(3)"> Saiba mais</ion-button>
             </div>
           </div> 
         </div>

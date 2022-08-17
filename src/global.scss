@@ -25,3 +25,18 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./assets/fonts/Roboto/Roboto-Black.ttf');
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+  @font-face {
+    font-family: 'Baloo Bhai 2';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./assets/fonts/Baloo_Bhai_2/BalooBhai2-VariableFont_wght.ttf');
+  }

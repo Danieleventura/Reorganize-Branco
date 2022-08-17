@@ -18,6 +18,6 @@ export class Tela4Page implements OnInit {
   }
 
   requestPageBack(){
-    this.route.navigate(['/tela2']);
+    this.route.navigate(['/tela3']);
   }
 }

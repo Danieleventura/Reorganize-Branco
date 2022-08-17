@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-tela3',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Tela3Page implements OnInit {
 
-  constructor() { }
+  constructor(private route:Router) { }
 
   ngOnInit() {
   }
 
+  requestPage(){
+    this.route.navigate(['/tela4']);
+  }
+
+  requestPageBack(){
+    this.route.navigate(['/tela2']);
+  }
 }

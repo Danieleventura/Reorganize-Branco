@@ -2,7 +2,7 @@
 	@name tela_home_tarefas_completadas
 */
 /* Only edit this if you know what you are doing! */
-* { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+* { margin: 0px; padding: 0px; font-family:'Roboto',  sans-serif; overflow-x:hidden; }
 
 /* Only edit this if you know what you are doing! */
 img {  margin: 0px; border: none; padding: 0px; }
@@ -30,6 +30,9 @@ img {  margin: 0px; border: none; padding: 0px; }
 	font-size: 26px;
 	text-align: center;
 	color:#256296;
+	#parabens{
+		font-family: 'Baloo Bhai 2' !important;
+	}
 }
 .gif {
 	text-align: center;

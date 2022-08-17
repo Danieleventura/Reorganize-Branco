@@ -14,6 +14,6 @@ export class Tela2Page implements OnInit {
   }
 
   requestPage(){
-    this.route.navigate(['/tela4']);
+    this.route.navigate(['/tela3']);
   }
 }
