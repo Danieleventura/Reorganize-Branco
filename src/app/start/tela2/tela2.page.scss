@@ -30,6 +30,10 @@ img {  margin: 0px; border: none; padding: 0px; }
 	word-break: break-word;
 	padding-bottom: 40px;
 	padding-right: 30px;
+	img{
+		width: 70%; 
+    	height: auto;
+	}
 }
 
 .photo{

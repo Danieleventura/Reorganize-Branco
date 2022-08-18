@@ -1,6 +1,7 @@
+/* eslint-disable @typescript-eslint/prefer-for-of */
 import { Component } from '@angular/core';
 import { ToastController } from '@ionic/angular';
-import {Router} from '@angular/router'; 
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-tab2',
@@ -8,87 +9,132 @@ import {Router} from '@angular/router';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
-  valueProgressBar = 0
+  valueProgressBar = 0;
   tarefas=[{
     name: '',
       done: false,
       date: 0,
       month: 0,
-      color: '#2EA8FF'
-    }, 
-    {
-      name: '',
-      done: false,
-      date: 0,
-      month: 0,
-      color: '#2EA8FF'
+      color: '#2EA8FF',
+      checkbox: true
     },
     {
       name: '',
       done: false,
       date: 0,
       month: 0,
-      color: '#2EA8FF'
+      color: '#2EA8FF',
+      checkbox: true
+    },
+    {
+      name: '',
+      done: false,
+      date: 0,
+      month: 0,
+      color: '#2EA8FF',
+      checkbox: true
     },{
       name: '',
       done: false,
       date: 0,
       month: 0,
-      color: '#2EA8FF'
+      color: '#2EA8FF',
+      checkbox: true
     }];
   modelTarefa=['','','', ''];
-  date = new Date().getUTCDate();
-  month = new Date().getMonth();
+  date = 0;
+  month = 0;
   constructor(private toastCtrl: ToastController, private route:Router) {
-    //this.tarefas.length = 4;
+    this.date = new Date().getUTCDate();
+    this.month = new Date().getUTCMonth();
     let taskJSON = localStorage.getItem('taskDB');
     localStorage.setItem('firstOpen', JSON.stringify(false));
+    this.valueProgressBar = 0;
     if(taskJSON != null){
       this.tarefas = JSON.parse(taskJSON);
-      this.updateProgressBar();
       for(let i =0; i<this.modelTarefa.length; i++){
         this.modelTarefa[i] =this.tarefas[i].name;
       }
+      this.updateProgressBar();
       const sameDay = this.verificarValidade(this.tarefas);
       if(sameDay){
         localStorage.removeItem('taskDB');
-        this.updateProgressBar();
+        console.log("apagando storage");
+        this.tarefas=[{
+          name: '',
+            done: false,
+            date: 0,
+            month: 0,
+            color: '#2EA8FF',
+            checkbox: true
+          },
+          {
+            name: '',
+            done: false,
+            date: 0,
+            month: 0,
+            color: '#2EA8FF',
+            checkbox: true
+          },
+          {
+            name: '',
+            done: false,
+            date: 0,
+            month: 0,
+            color: '#2EA8FF',
+            checkbox: true
+          },{
+            name: '',
+            done: false,
+            date: 0,
+            month: 0,
+            color: '#2EA8FF',
+            checkbox: true
+          }];
+          this.modelTarefa=['','','', ''];
+          this.valueProgressBar = 0;
       }
     }
   }
 
   verificarValidade(tasks){
-    const taskAux = tasks[0];
-    if(taskAux.date != null && taskAux.month!= null && taskAux.date != this.date && taskAux.month!= this.month){
-      return true;
-    }else{return false;}
+
+    for(let i =0; i<tasks.length; i++){
+      if(tasks[i].date != this.date || tasks[i].month != this.month){
+        if(tasks[i].date != 0 || tasks[i].month != 0){
+          return true;
+        }
+      }
+    }
+    return false;
   }
 
   async addTarefa(taskInput, i){
     const size = this.modelTarefa[i].length;
-    var index = this.tarefas.indexOf(taskInput);
+    //var index = this.tarefas.indexOf(taskInput);
+    console.log(size);
+    var type = false;
     if(size < 1 ){
-      this.tarefas[index].name = '';
-      this.tarefas[index].done = false;
+      this.tarefas[i].name = '';
+      this.tarefas[i].done = false;
+      type= true;
       this.updateLocalStorage();
-      return;
+      //return;
     }
     const date = new Date().getUTCDate();
-    const month = new Date().getMonth();
+    const month = new Date().getUTCMonth();
 
     let task = {
       name: this.modelTarefa[i],
       done: false,
       date: date,
       month: month,
-      color: '#2EA8FF'
+      color: '#2EA8FF',
+      checkbox: type
     };
 
-    const size2 = this.tarefas.length;
-    if(size2 <=4){
-      this.tarefas[index] = task;
-      this.updateLocalStorage();
-    }
+    this.tarefas[i] = task;
+    this.updateLocalStorage();
   }
 
   updateLocalStorage(){
@@ -107,7 +153,7 @@ export class Tab2Page {
         }else{
           this.tarefas[index].color = '#2EA8FF';
         }
-        
+
         console.log("alterou");
         this.updateLocalStorage();
         if(task.done){
@@ -118,7 +164,7 @@ export class Tab2Page {
         }else{
           this.valueProgressBar-= 0.25
         }
-      } 
+      }
     }
   }
 

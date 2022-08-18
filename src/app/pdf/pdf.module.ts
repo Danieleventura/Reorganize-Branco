@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { DocumentViewer } from '@awesome-cordova-plugins/document-viewer/ngx';
 
 import { IonicModule } from '@ionic/angular';
 
@@ -18,7 +17,6 @@ import  {  PdfViewerModule  }  from  'ng2-pdf-viewer' ;
     PdfPageRoutingModule,
     PdfViewerModule
   ],
-  providers: [DocumentViewer],
   declarations: [PdfPage]
 })
 export class PdfPageModule {}

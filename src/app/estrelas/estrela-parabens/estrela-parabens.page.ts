@@ -18,6 +18,7 @@ export class EstrelaParabensPage implements OnInit {
   }
 
   requestPage(){
-    this.route.navigate([this.cards[Math.floor(Math.random()*this.cards.length)]]);
+    //this.route.navigate([this.cards[Math.floor(Math.random()*this.cards.length)]]);
+    this.route.navigate(['/card1']);
   }
 }

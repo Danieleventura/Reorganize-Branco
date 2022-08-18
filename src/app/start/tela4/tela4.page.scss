@@ -51,6 +51,7 @@ img { margin: 0px; border: none; padding: 0px; }
 
 
 #vamos_come_ar_ {
+	width: 100%;
 	overflow: hidden;
 	font-family: Baloo Bhai;
 	font-size: 50px;
@@ -59,6 +60,10 @@ img { margin: 0px; border: none; padding: 0px; }
 	padding-top: 22.479996681213px;
 	margin-top: -22.479996681213px;
 	color:#FFFFFF;
+	img{
+		width: 70%; 
+    	height: auto;
+	}
 }
 
 .logo{
@@ -67,6 +72,10 @@ img { margin: 0px; border: none; padding: 0px; }
     justify-content: center;
     align-items: center;
     width: 100%;
+	img{
+		width: 50%; 
+    	height: auto;
+	}
 }
 #app_smile_1 {
 	width: 240px;

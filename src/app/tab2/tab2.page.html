@@ -4,7 +4,7 @@
     <div id="insira_tarefas_para_o_seu_dia_e_marque_as_concluidas_para_desbloquear_cart_es" >
       <p>Insira tarefas para o seu dia<br/>e marque as concluidas<br/>para desbloquear cartões</p>
       <ion-progress-bar value="{{valueProgressBar}}"></ion-progress-bar>
-
+     
     </div>
 
     
@@ -12,9 +12,9 @@
       <ion-list lines="none">
         <div class="tarefa"  *ngFor="let task of tarefas;let i = index">
           <div class="retangulo_azul" style="background: {{task.color}};">
-            <ion-input type="text" [(ngModel)]="modelTarefa[i]" placeholder="Insira uma tarefa para hoje" (ionBlur)="addTarefa(task, i)"></ion-input>
+            <ion-input type="text" [(ngModel)]="modelTarefa[i]" placeholder="Insira uma tarefa para hoje" (ionBlur)="addTarefa(modelTarefa[i], i)"></ion-input>
             <div class="quadrado_escuro"  >
-              <ion-checkbox (ionChange)="changeStatus(task)" checked="{{task.done}}" ></ion-checkbox>
+              <ion-checkbox (ionChange)="changeStatus(task)" checked="{{task.done}}" disabled="{{task.checkbox}}"></ion-checkbox>
             </div>
           </div>
         </div>
