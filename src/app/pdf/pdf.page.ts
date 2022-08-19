@@ -11,7 +11,7 @@ export class PdfPage implements OnInit {
     title: 'My PDF'
   }
   constructor() { }
-  pdfSrc  =  "/assets/skins/tcc.pdf" ;
+  pdfSrc  =  "/assets/skins/reorganize.pdf" ;
   ngOnInit() {
 
   }
