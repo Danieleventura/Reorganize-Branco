@@ -32,8 +32,8 @@ export class AppComponent {
     await LocalNotifications.schedule({
       notifications:[
         {
-          //title: 'Bom dia',
-          body: 'Vamos Reorganizar seu dia hoje ;)? - 1 min',
+          title: 'Bom dia',
+          body: 'Vamos Reorganizar seu dia hoje ;)?',
           id: 2,
           schedule: {
             every: 'day',
