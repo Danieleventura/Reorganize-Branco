@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/member-ordering */
 import { Component, OnInit } from '@angular/core';
 import  {  PdfViewerModule  }  from  'ng2-pdf-viewer' ;
 
@@ -9,9 +10,9 @@ import  {  PdfViewerModule  }  from  'ng2-pdf-viewer' ;
 export class PdfPage implements OnInit {
   options = {
     title: 'My PDF'
-  }
+  };
   constructor() { }
-  pdfSrc  =  "/assets/skins/reorganize.pdf" ;
+  pdfSrc  =  '/assets/skins/reorganize.pdf' ;
   ngOnInit() {
 
   }

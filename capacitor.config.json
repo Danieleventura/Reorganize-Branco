@@ -1,12 +1,12 @@
 {
-	"appId": "io.ionic.todo",
-	"appName": "Reorganize",
-	"webDir": "www",
-	"bundledWebRuntime": false,
-	"plugins":{
-		"LocalNotifications":{
-			"smallIcon": "ic_stat_icon24",
-			"iconColor": "#397ffb"
-		}
-	}
+  "appId": "io.ionic.todo",
+  "appName": "Reorganize",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_icon24",
+      "iconColor": "#397ffb"
+    }
+  }
 }
